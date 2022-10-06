@@ -11,16 +11,16 @@
     },
     "extends": ["airbnb-base"],
     "rules": {
+      "linebreak-style":0,
       "no-shadow": "off",
       "no-param-reassign": "off",
       "eol-last": "off",
-      "import/extensions": [
-        1,
-        {
-          "js": "always",
-          "json": "always"
-        }
-      ]
+      "import/extensions": [ 1, {
+        "js": "always", "json": "always"
+      }]
     },
-    "ignorePatterns": ["dist/", "build/", "docs/"]
+    "ignorePatterns": [
+      "dist/",
+      "build/"
+    ]
   }
